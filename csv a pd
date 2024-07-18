@@ -1,0 +1,17 @@
+Codigo para leer datos .csv en python
+
+
+import pandas as pd
+import matplotlib.pyplot as plt
+import seaborn as sns
+import numpy as np
+
+#Importar funciones diseñadas para el curso
+import sys
+# Agrega la ruta del módulo al sys.path
+sys.path.append('C:/Users/klakl/Documents/Universidad/Otoño 2024/Procesamiento de señales/Reducci_n_de_dimensionalidad/Clase 5')
+# Ahora importamos las funciones
+from funcionesME7200 import autolabel
+
+# Cargar los datos desde un archivo CSV.
+Data = pd.read_csv('Bba118.csv')  
